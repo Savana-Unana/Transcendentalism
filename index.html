@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Would You Rather</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 id="title">Would You Rather</h1>
+    <div class="question">
+      <div id="red-side" class="side red">
+        <p id="red-choice">Loading...</p>
+        <p id="red-percentage-text">Red Side: 0%</p>
+        <button id="red-button" onclick="chooseOption('red')">Choose Red</button>
+      </div>
+      <div id="blue-side" class="side blue">
+        <p id="blue-choice">Loading...</p>
+        <p id="blue-percentage-text">Blue Side: 0%</p>
+        <button id="blue-button" onclick="chooseOption('blue')">Choose Blue</button>
+      </div>
+    </div>
+    <div id="results" class="results"></div>
+    <!-- Initially hidden Next Question button -->
+    <button id="next-question" onclick="generateNewQuestion()" style="display: none;">Next Question</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
