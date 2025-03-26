@@ -2,10 +2,18 @@ let currentQuestionIndex = 0;
 
 // Store the questions with separate vote counts
 const questions = [
-  { red: "Be able to fly", blue: "Be invisible", redVotes: 0, blueVotes: 0 },
-  { red: "Live forever", blue: "Have unlimited money", redVotes: 0, blueVotes: 0 },
-  { red: "Travel the world", blue: "Never have to sleep", redVotes: 0, blueVotes: 0 }
+  { red: "Be the only unique person", blue: "Be the most boring person", redVotes: 0, blueVotes: 0 },
+  { red: "Live in a lawless land", blue: "Live in a land with far too many rules", redVotes: 0, blueVotes: 0 },
+  { red: "Be blamed for something you didn’t do", blue: "Live with the guilt of a really bad choice you made", redVotes: 0, blueVotes: 0 },
+  { red: "Do nothing but what one singular person does", blue: "Be the one that many others copy exactly", redVotes: 0, blueVotes: 0 },
+  { red: "Be the only smart person in a room where everybody listens to others", blue: "Be unintelligent in a room full of geniuses where nobody listens", redVotes: 0, blueVotes: 0 },
+  { red: "Follow the rules and rat out a close friend", blue: "Give yourself up instead of a close friend", redVotes: 0, blueVotes: 0 },
+  { red: "Live in a society where everyone is kind but fake", blue: "Live in a society where everyone is brutally honest", redVotes: 0, blueVotes: 0 },
+  { red: "Be controlled by a singular unbeatable entity", blue: "Be dictated by everybody", redVotes: 0, blueVotes: 0 },
+  { red: "Live in a world where nobody can lie", blue: "Live in a world where nobody can tell the truth", redVotes: 0, blueVotes: 0 },
+  { red: "Have everyone agree with you always", blue: "Have the ability to never be manipulated", redVotes: 0, blueVotes: 0 }
 ];
+
 
 // Load saved votes from localStorage
 function loadVotes() {
