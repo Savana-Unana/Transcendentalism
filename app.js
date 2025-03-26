@@ -1,6 +1,5 @@
 let currentQuestionIndex = 0;
 
-// Store the questions with separate vote counts
 const questions = [
   { red: "Be the only unique person", blue: "Be the most boring person", redVotes: 0, blueVotes: 0 },
   { red: "Live in a lawless land", blue: "Live in a land with far too many rules", redVotes: 0, blueVotes: 0 },
